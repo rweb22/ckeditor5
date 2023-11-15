@@ -144,7 +144,7 @@ export default class CodeBlockEditing extends Plugin {
 			}
 
 			if ( context.endsWith( 'codeBlock $text' ) ) {
-				return false;
+				return true;
 			}
 		} );
 
